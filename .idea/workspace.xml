@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99278edb-81aa-414a-9aa6-0f22122ae234" name="Changes" comment="add default query parameters">
+    <list default="true" id="99278edb-81aa-414a-9aa6-0f22122ae234" name="Changes" comment="add optional query parameters">
+      <change afterPath="$PROJECT_DIR$/multiple_params.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/queryParams.py" beforeDir="false" afterPath="$PROJECT_DIR$/queryParams.py" afterDir="false" />
     </list>
@@ -137,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733512038415</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add optional query parameters">
+      <option name="closed" value="true" />
+      <created>1733514360862</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733514360862</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,6 +163,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add path parameter" />
     <MESSAGE value="add default query parameters" />
-    <option name="LAST_COMMIT_MESSAGE" value="add default query parameters" />
+    <MESSAGE value="add optional query parameters" />
+    <option name="LAST_COMMIT_MESSAGE" value="add optional query parameters" />
   </component>
 </project>
