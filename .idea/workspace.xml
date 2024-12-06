@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99278edb-81aa-414a-9aa6-0f22122ae234" name="Changes" comment="add optional query parameters">
-      <change afterPath="$PROJECT_DIR$/multiple_params.py" afterDir="false" />
+    <list default="true" id="99278edb-81aa-414a-9aa6-0f22122ae234" name="Changes" comment="add multiple path and query parameters">
+      <change afterPath="$PROJECT_DIR$/required_query_params.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/queryParams.py" beforeDir="false" afterPath="$PROJECT_DIR$/queryParams.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733514360862</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add multiple path and query parameters">
+      <option name="closed" value="true" />
+      <created>1733516354593</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733516354593</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,6 +171,7 @@
     <MESSAGE value="add path parameter" />
     <MESSAGE value="add default query parameters" />
     <MESSAGE value="add optional query parameters" />
-    <option name="LAST_COMMIT_MESSAGE" value="add optional query parameters" />
+    <MESSAGE value="add multiple path and query parameters" />
+    <option name="LAST_COMMIT_MESSAGE" value="add multiple path and query parameters" />
   </component>
 </project>
