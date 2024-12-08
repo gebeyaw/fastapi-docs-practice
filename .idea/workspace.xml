@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99278edb-81aa-414a-9aa6-0f22122ae234" name="Changes" comment="add multiple path and query parameters">
-      <change afterPath="$PROJECT_DIR$/required_query_params.py" afterDir="false" />
+    <list default="true" id="99278edb-81aa-414a-9aa6-0f22122ae234" name="Changes" comment="add fastapi request body">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,18 +47,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Basicmode.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pathParameter.executor&quot;: &quot;Run&quot;,
-    &quot;Python.queryParams.executor&quot;: &quot;Run&quot;,
-    &quot;Python.queryParamters.executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Basicmode.executor": "Run",
+    "Python.pathParameter.executor": "Run",
+    "Python.queryParams.executor": "Run",
+    "Python.queryParamters.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="queryParams" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
@@ -153,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733516354593</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add required and optional query parameters">
+      <option name="closed" value="true" />
+      <created>1733517126472</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733517126472</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,6 +179,8 @@
     <MESSAGE value="add default query parameters" />
     <MESSAGE value="add optional query parameters" />
     <MESSAGE value="add multiple path and query parameters" />
-    <option name="LAST_COMMIT_MESSAGE" value="add multiple path and query parameters" />
+    <MESSAGE value="add required and optional query parameters" />
+    <MESSAGE value="add fastapi request body" />
+    <option name="LAST_COMMIT_MESSAGE" value="add fastapi request body" />
   </component>
 </project>
