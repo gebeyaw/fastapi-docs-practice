@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99278edb-81aa-414a-9aa6-0f22122ae234" name="Changes" comment="add request body with path and query parameters">
-      <change afterPath="$PROJECT_DIR$/query_parameter_validation.py" afterDir="false" />
+    <list default="true" id="99278edb-81aa-414a-9aa6-0f22122ae234" name="Changes" comment="add query parameters validation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query_parameter_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/query_parameter_validation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733659570910</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add query parameters validation">
+      <option name="closed" value="true" />
+      <created>1733772951512</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1733772951512</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,6 +215,7 @@
     <MESSAGE value="add required and optional query parameters" />
     <MESSAGE value="add fastapi request body" />
     <MESSAGE value="add request body with path and query parameters" />
-    <option name="LAST_COMMIT_MESSAGE" value="add request body with path and query parameters" />
+    <MESSAGE value="add query parameters validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add query parameters validation" />
   </component>
 </project>
