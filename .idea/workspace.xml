@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99278edb-81aa-414a-9aa6-0f22122ae234" name="Changes" comment="add query parameters validation">
+    <list default="true" id="99278edb-81aa-414a-9aa6-0f22122ae234" name="Changes" comment="Include min_length query parameter validation">
+      <change afterPath="$PROJECT_DIR$/query_parameter_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/query_title_description.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/query_parameter_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/query_parameter_validation.py" afterDir="false" />
     </list>
@@ -193,7 +195,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733772951512</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Include min_length query parameter validation">
+      <option name="closed" value="true" />
+      <created>1733779904685</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1733779904685</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,6 +226,7 @@
     <MESSAGE value="add fastapi request body" />
     <MESSAGE value="add request body with path and query parameters" />
     <MESSAGE value="add query parameters validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="add query parameters validation" />
+    <MESSAGE value="Include min_length query parameter validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Include min_length query parameter validation" />
   </component>
 </project>
