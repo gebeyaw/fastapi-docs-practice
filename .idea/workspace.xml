@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99278edb-81aa-414a-9aa6-0f22122ae234" name="Changes" comment="Include min_length query parameter validation">
-      <change afterPath="$PROJECT_DIR$/query_parameter_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/query_title_description.py" afterDir="false" />
+    <list default="true" id="99278edb-81aa-414a-9aa6-0f22122ae234" name="Changes" comment="add multiple parameter values">
+      <change afterPath="$PROJECT_DIR$/path_parameter_validation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query_parameter_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/query_parameter_validation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733779904685</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add multiple parameter values">
+      <option name="closed" value="true" />
+      <created>1733783526730</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1733783526730</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,6 +233,18 @@
     <MESSAGE value="add request body with path and query parameters" />
     <MESSAGE value="add query parameters validation" />
     <MESSAGE value="Include min_length query parameter validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Include min_length query parameter validation" />
+    <MESSAGE value="add multiple parameter values" />
+    <option name="LAST_COMMIT_MESSAGE" value="add multiple parameter values" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/path_parameter_validation.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
