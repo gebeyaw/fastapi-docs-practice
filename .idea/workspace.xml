@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99278edb-81aa-414a-9aa6-0f22122ae234" name="Changes" comment="add path parameter validation">
-      <change afterPath="$PROJECT_DIR$/query_parameter_model.py" afterDir="false" />
+    <list default="true" id="99278edb-81aa-414a-9aa6-0f22122ae234" name="Changes" comment="add query parameter model">
+      <change afterPath="$PROJECT_DIR$/multiple_body_parameters.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -217,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733947653398</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add query parameter model">
+      <option name="closed" value="true" />
+      <created>1733949629404</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1733949629404</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -243,7 +251,8 @@
     <MESSAGE value="Include min_length query parameter validation" />
     <MESSAGE value="add multiple parameter values" />
     <MESSAGE value="add path parameter validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="add path parameter validation" />
+    <MESSAGE value="add query parameter model" />
+    <option name="LAST_COMMIT_MESSAGE" value="add query parameter model" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
