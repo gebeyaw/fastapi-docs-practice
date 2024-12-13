@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99278edb-81aa-414a-9aa6-0f22122ae234" name="Changes" comment="add multiple body parameters">
-      <change afterPath="$PROJECT_DIR$/body_fields.py" afterDir="false" />
+    <list default="true" id="99278edb-81aa-414a-9aa6-0f22122ae234" name="Changes" comment="Add body fields">
+      <change afterPath="$PROJECT_DIR$/nested_body_models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -233,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734033174906</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Add body fields">
+      <option name="closed" value="true" />
+      <created>1734119687643</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1734119687643</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -261,7 +269,8 @@
     <MESSAGE value="add path parameter validation" />
     <MESSAGE value="add query parameter model" />
     <MESSAGE value="add multiple body parameters" />
-    <option name="LAST_COMMIT_MESSAGE" value="add multiple body parameters" />
+    <MESSAGE value="Add body fields" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add body fields" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
