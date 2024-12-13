@@ -12,14 +12,20 @@ class Item(BaseModel):
     description: str | None = None
     price: float
     tax: float | None = None
-    tags: list[str]
-    images:Set[Image]
+    tags: Set[str]
+    images:list[Image] | None = None
+
+
+class Offer(BaseModel):
+    name:str
+    description: str | None = None
+    Price: float
+    items: list[Item]
 
 
 app = FastAPI()
 
 
-@app.put("/item/{item_id}")
-async def update_item(item_id: int, item: Item):
-    result = {"item_id":item_id, "item":item}
-    return result
+@app.post("/offers/")
+async def create_offer(offer: Offer):
+    return offer
