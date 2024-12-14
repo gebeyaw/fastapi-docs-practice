@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99278edb-81aa-414a-9aa6-0f22122ae234" name="Changes" comment="Add deeply nested models">
-      <change afterPath="$PROJECT_DIR$/body_with_examples.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/declare_request_example_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/openapi_specific_examples.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pydantic_field_additional_arguments.py" afterDir="false" />
+    <list default="true" id="99278edb-81aa-414a-9aa6-0f22122ae234" name="Changes" comment="Declare request example data">
+      <change afterPath="$PROJECT_DIR$/cookie_parameters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/extra_data_types.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -268,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734124643294</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Declare request example data">
+      <option name="closed" value="true" />
+      <created>1734168761592</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1734168761592</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -300,7 +306,8 @@
     <MESSAGE value="Add nested body models" />
     <MESSAGE value="Add submodels at list of item" />
     <MESSAGE value="Add deeply nested models" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add deeply nested models" />
+    <MESSAGE value="Declare request example data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Declare request example data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
