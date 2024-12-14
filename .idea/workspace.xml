@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99278edb-81aa-414a-9aa6-0f22122ae234" name="Changes" comment="Add submodels at list of item">
+    <list default="true" id="99278edb-81aa-414a-9aa6-0f22122ae234" name="Changes" comment="Add deeply nested models">
+      <change afterPath="$PROJECT_DIR$/body_with_examples.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/declare_request_example_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/openapi_specific_examples.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pydantic_field_additional_arguments.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ItemWithSubmodels.py" beforeDir="false" afterPath="$PROJECT_DIR$/ItemWithSubmodels.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -257,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734123243373</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Add deeply nested models">
+      <option name="closed" value="true" />
+      <created>1734124643294</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1734124643294</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -288,7 +299,8 @@
     <MESSAGE value="Add body fields" />
     <MESSAGE value="Add nested body models" />
     <MESSAGE value="Add submodels at list of item" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add submodels at list of item" />
+    <MESSAGE value="Add deeply nested models" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add deeply nested models" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
