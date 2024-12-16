@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99278edb-81aa-414a-9aa6-0f22122ae234" name="Changes" comment="add request files using File and UploadFile">
-      <change afterPath="$PROJECT_DIR$/Override_default_exception_handlers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom_exception_handlers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/handling_errors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/override_request_validation_exceptions.py" afterDir="false" />
+    <list default="true" id="99278edb-81aa-414a-9aa6-0f22122ae234" name="Changes" comment="add error handling">
+      <change afterPath="$PROJECT_DIR$/fastapi_database_connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fastapi_db_integration/db_connection.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -324,7 +322,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734259966240</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="add error handling">
+      <option name="closed" value="true" />
+      <created>1734264461001</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1734264461001</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -363,7 +369,8 @@
     <MESSAGE value="add extra models and response status code" />
     <MESSAGE value="add form data and models" />
     <MESSAGE value="add request files using File and UploadFile" />
-    <option name="LAST_COMMIT_MESSAGE" value="add request files using File and UploadFile" />
+    <MESSAGE value="add error handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="add error handling" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
