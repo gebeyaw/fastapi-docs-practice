@@ -1,9 +1,9 @@
 """Main application entry point"""
 import uvicorn
 from fastapi import FastAPI
-from Controllers.UserController import router as user_controller_router
-from Controllers.AuthController import router as auth_controller_router
-from Controllers.RoleController import router as role_controller_router
+from User_Management.Controllers.UserController import router as user_controller_router
+from User_Management.Controllers.AuthController import router as auth_controller_router
+from User_Management.Controllers.RoleController import router as role_controller_router
 
 # Constants
 API_PREFIX = "/api/v1"

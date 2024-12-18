@@ -18,35 +18,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="99278edb-81aa-414a-9aa6-0f22122ae234" name="Changes" comment="Database connection with FastAPI">
-      <change afterPath="$PROJECT_DIR$/User_Management/Config/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User_Management/Config/authConfig.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User_Management/Config/dbConfig.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User_Management/Controllers/AuthController.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User_Management/Controllers/RoleController.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User_Management/Controllers/UserController.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User_Management/Controllers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User_Management/Models/EducationLevel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User_Management/Models/Gender.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User_Management/Models/Role.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User_Management/Models/Structure.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User_Management/Models/User.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User_Management/Models/WorkingAreaLevel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User_Management/Models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User_Management/Repositories/RoleRepository.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User_Management/Repositories/UserRepository.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User_Management/Repositories/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User_Management/Security/AccessControl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User_Management/Security/AuthMiddleware.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User_Management/Security/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User_Management/Services/AuthService.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User_Management/Services/RoleService.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User_Management/Services/UserService.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User_Management/Services/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User_Management/Utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User_Management/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User_Management/main.py" afterDir="false" />
+    <list default="true" id="99278edb-81aa-414a-9aa6-0f22122ae234" name="Changes" comment="Add User Management and Database connection with FastAPI">
+      <change afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ItemWithSubmodels.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/ItemWithSubmodels.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Override_default_exception_handlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/Override_default_exception_handlers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/body_fields.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/body_fields.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/body_path_query_params.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/body_path_query_params.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/body_with_examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/body_with_examples.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cookie_parameter_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/cookie_parameter_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cookie_parameters.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/cookie_parameters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom_exception_handlers.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/custom_exception_handlers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/declare_request_example_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/declare_request_example_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extra_data_types.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/extra_data_types.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extra_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/extra_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi_database_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/fastapi_database_connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fastapi_request_body.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/fastapi_request_body.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstCode.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/firstCode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/form_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/form_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handling_errors.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/handling_errors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header_parameter_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/header_parameter_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header_parameters.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/header_parameters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiple_body_parameters.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/multiple_body_parameters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multiple_params.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/multiple_params.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nested_body_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/nested_body_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/openapi_specific_examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/openapi_specific_examples.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathParameter.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/pathParameter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/path_parameter_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/path_parameter_validation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pydantic_field_additional_arguments.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/pydantic_field_additional_arguments.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/queryParams.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/queryParams.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query_parameter_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/query_parameter_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query_parameter_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/query_parameter_model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query_parameter_validation.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/query_parameter_validation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/query_title_description.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/query_title_description.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requestValidationError_body.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/requestValidationError_body.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/request_files.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/request_files.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/request_form_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/request_form_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/required_query_params.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/required_query_params.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/response_model_parameter.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/response_model_parameter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/response_model_return_type.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/response_model_return_type.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/response_status_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/FastApi_Documentation_Practice/response_status_code.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +124,7 @@
       <recent name="C:\Users\gebey\PycharmProjects\PythonProject\User_Management\Security" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gebey\PycharmProjects\PythonProject\FastApi_Documentation_Practice" />
       <recent name="C:\Users\gebey\PycharmProjects\PythonProject\fastapi_db_integration" />
     </key>
   </component>
@@ -127,7 +142,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/queryParams.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\gebey\PycharmProjects\PythonProject\FastApi_Documentation_Practice\queryParams.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -390,7 +405,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734379761573</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Add User Management and Database connection with FastAPI">
+      <option name="closed" value="true" />
+      <created>1734506907631</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1734506907631</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -405,7 +428,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add default query parameters" />
     <MESSAGE value="add optional query parameters" />
     <MESSAGE value="add multiple path and query parameters" />
     <MESSAGE value="add required and optional query parameters" />
@@ -430,13 +452,14 @@
     <MESSAGE value="add request files using File and UploadFile" />
     <MESSAGE value="add error handling" />
     <MESSAGE value="Database connection with FastAPI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Database connection with FastAPI" />
+    <MESSAGE value="Add User Management and Database connection with FastAPI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add User Management and Database connection with FastAPI" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/path_parameter_validation.py</url>
+          <url>file://$PROJECT_DIR$/FastApi_Documentation_Practice/path_parameter_validation.py</url>
           <line>12</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
